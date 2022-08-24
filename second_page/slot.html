@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="../second_page/asset_second_page/style.css">
+    <link rel="stylesheet" href="../second_page/asset_second_page/respon.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+    <link rel="icon" href="../second_page/asset_second_page/img/logo/logo.png">
+
+    <script src="../second_page/asset_second_page/jquery-3.6.0.min.js"></script>
+    <title>Live</title>
+</head>
+<body>
+    <div class="mobile-header">
+        <a href="#"><img src="../second_page/asset_second_page/img/logo/logo.png" alt=""></a>
+        <a href="#" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    </div>
+    
+    <header>
+        <div class="main-box">
+            <div class="logo">
+                <img src="../second_page/asset_second_page/img/logo/logo.png" alt="">
+            </div>
+            <div id="clockdate">
+                <div class="clockdate-wrapper">
+                    <div id="clock"></div>
+                    <div id="date"></div>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <a href="../second_page/index.html"><img src="../second_page/asset_second_page/img/mobile-icon/house.png" alt=""><br>Home</a>
+                <a href="../second_page/live.html"><img src="../second_page/asset_second_page/img/mobile-icon/live.png" alt=""><br>Live</a>
+                <a href="../second_page/slot.html"><img src="../second_page/asset_second_page/img/mobile-icon/slot.png" alt=""><br>Slot</a>
+                <a href="../second_page/fish.html"><img src="../second_page/asset_second_page/img/mobile-icon/fishing.png" alt=""><br>Fishing</a>
+                <a href="../second_page/dice.html"><img src="../second_page/asset_second_page/img/mobile-icon/dice.png" alt=""><br>Dice</a>
+                <a href="../second_page/poker.html"><img src="../second_page/asset_second_page/img/mobile-icon/poker-cards.png" alt=""><br>Poker</a>
+                <a href="../second_page/contact.html"><img src="../second_page/asset_second_page/img/mobile-icon/contacts.png" alt=""><br>Contact</a>
+                <a href="../second_page/about.html"><img src="../second_page/asset_second_page/img/mobile-icon/about.png" alt=""><br>About</a>
+            </div>
+        </div>
+        <div class="main-menu" id="myNav">
+            <i class="fa fa-times closebtn" onclick="closeNav()"></i>
+            <div class="menu">
+                <ul>
+                    <li><a href="../second_page/index.html">Home</a></li>
+                    <li><a href="../second_page/live.html">Live</a></li>
+                    <li><a href="../second_page/slot.html">Slot</a></li>
+                    <li><a href="../second_page/fish.html">Fishing</a></li>
+                    <li><a href="../second_page/poker.html">Poker</a></li>
+                    <li><a href="../second_page/dice.html">Dice</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../second_page/asset_second_page/img/banner/Banner 01.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../second_page/asset_second_page/img/banner/Banner 02.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../second_page/asset_second_page/img/banner/Banner 03.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../second_page/asset_second_page/img/banner/Banner 04.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="trending">
+        <marquee behavior="right" direction=""> GH888 is a Website that includes all types of online games corresponding to the player's conditions</marquee>
+    </div>
+    
+    <div class="blog-slot">
+        <div class="box-blog">
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/7.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/8.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/9.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/10.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/11.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/12.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/13.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/17.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/18.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="main-box">
+                <a href="#">
+                    <div class="box">
+                        <div class="images">
+                            <img src="../second_page/asset_second_page/img/lan-png/19.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="main-box">
+            <div class="footer-menu">
+                <ul>
+                    <span>|</span>
+                    <li><a href="../second_page/index.html">Home</a></li>
+                    <span>|</span>
+                    <li><a href="../second_page/about.html">About Us</a></li>
+                    <span>|</span>
+                    <li><a href="../second_page/contact.html">contact Us</a></li>
+                    <span>|</span>
+                </ul>
+            </div>
+            <div class="follow">
+                <p>Follow Us</p>
+                <a href="https://www.facebook.com/pages/create/?ref_type=registration_form"><i class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org/z/"><i class="fab fa-telegram"></i></a>
+            </div>
+            <div class="copyright">
+                <p>© GH. 2022 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../second_page/asset_second_page/script.js"></script>
+</body>
+</html>
